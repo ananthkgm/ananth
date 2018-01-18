@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <conio.h>
-int main()
+void main()
 {
     char c;
     printf("Enter any character: ");
@@ -9,5 +9,4 @@ int main()
         printf("The entered character %c is an Alphabet",c);
     else
         printf("The entered character %c is not an Alphabet",c);
-    return 0;
 }
