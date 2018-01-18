@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+void main()
 {
     int base, exponent;
     long long result = 1;
@@ -13,5 +13,4 @@ int main()
         --exponent;
     }
     printf("Answer = %lld", result);
-    return 0;
 }
